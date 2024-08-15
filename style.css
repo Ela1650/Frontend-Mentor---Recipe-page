@@ -1,0 +1,122 @@
+ 
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      
+      :root {
+        --bg-color: #F3E5D8;
+        --bg-color2: #FFF7FC;
+        --title-color: #834732;
+        --title-color2: #9e3e69;
+      }
+  
+      .attribution { font-size: 11px; text-align: center; margin: 10px 0; }
+      .attribution a { color: var(--title-color2); }
+      
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: var(--bg-color);
+        font-family: "Outfit";
+        color: #444;
+        font-size: 14px;
+      }
+  
+      .container {
+        background-color: #fff;
+        width: 650px;
+        padding: 30px;
+        border-radius: 10px;
+      }
+  
+      .container h1 {
+        font-family: "Young Serif", serif;
+        font-weight: 200;
+        margin: 20px 0;
+        color: var(--title-color);
+      }
+  
+      .container ul li, .container ol li {
+        padding-left: 15px;
+        margin: 10px 0;
+      }
+  
+      .container ul li span, .container ol li span {
+        font-weight: 700;
+      }
+  
+      .container  ul, ol {
+        padding-left: 30px;
+      }
+  
+      .container hr {
+        border: none;
+        height: 1.5px;
+        margin: 30px 0; 
+        background-color: #d3d3d3;
+      }
+  
+      .container img {
+        display: block;
+        width: 580px;
+        margin: 0 auto 20px;
+        border-radius: 10px;
+      }
+  
+      .recipe h1 {
+        color: #333;
+      }
+  
+      .recipe p {
+        margin: 0 0 30px;
+      }
+  
+      .prepare {
+        background-color: var(--bg-color2);
+        padding: 20px;
+      }
+  
+      .prepare h2 {
+        color: var(--title-color2);
+      }
+  
+      .prepare ul li::marker {
+        color: var(--title-color2);
+      }
+  
+      .ingredients ul li::marker {
+        color: var(--title-color);
+      }
+  
+      .steps ol li::marker {
+        font-weight: bold;
+        color: var(--title-color);
+      }
+  
+      .nutrition p {
+        margin-bottom: 20px;
+      }
+  
+      .nutrition table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+  
+      .nutrition tr, .nutrition td{
+        padding: 10px 20px;
+        border-bottom: 1px solid #ddd;
+      }
+  
+      .nutrition tr:last-child  {
+         border-bottom: 0px solid #ddd;
+      }
+  
+      .nutrition table .value {
+        color: var(--title-color2);
+        font-weight: bold;
+      }
+  
